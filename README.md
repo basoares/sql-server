@@ -1,7 +1,29 @@
-# sql-server
-sql-server code snippets
+# SQL Server samples
+====================
 
-### Read Me ###
+This repository contains code samples for Microsoft's SQL Server.
 
-* This repository is for sharing MSSQL snippets
+## Functions
+* udf_string_split.sql
+  * For SQL Server versions earlier than 2016 (compatibility level of at least
+    130)
+  * A table-valued function that splits a string into rows of substrings, based
+    on a specified separator character.
 
+* udf_string_to_characters
+  * A table-valued function that splits a string into rows of single
+    characters
+
+## CLR
+* clr_split_string.sql
+  * 
+
+* clr_regex_match
+  * 
+
+## Procedures
+* usp_truncated_columns.sql
+  * A procedure to identify which column is causing the infamous error message
+    "String or binary data would be truncated"
+
+## Indexes
