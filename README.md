@@ -1,12 +1,9 @@
 # SQL Server samples
-====================
 
 This repository contains code samples for Microsoft's SQL Server.
 
 ## Functions
 * udf_string_split.sql
-  * For SQL Server versions earlier than 2016 (compatibility level of at least
-    130)
   * A table-valued function that splits a string into rows of substrings, based
     on a specified separator character.
 
@@ -16,10 +13,10 @@ This repository contains code samples for Microsoft's SQL Server.
 
 ## CLR
 * clr_split_string.sql
-  * 
+  * -
 
 * clr_regex_match
-  * 
+  * -
 
 ## Procedures
 * usp_truncated_columns.sql
