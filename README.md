@@ -2,7 +2,7 @@
 
 This repository contains code samples for Microsoft's SQL Server.
 
-## Scripst
+## Scripts
 * gaps_and_islands.sql
   * SQL gaps and islands in sequences
 * lag_and_lead.sql
